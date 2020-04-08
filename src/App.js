@@ -31,6 +31,7 @@ class App extends React.Component {
         <Cards data={data} />
         <CountryPicker changeCountry={this.changeCountry} />
         <Chart data={data} country={country} />
+        <p>&copy; 2020 Ivančić Ivica</p>
       </div>
     );
   }
